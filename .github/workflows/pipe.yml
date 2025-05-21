@@ -1,0 +1,24 @@
+name: python pipeline
+
+on:
+  push:
+    branches:
+      - feature/*
+      - main
+
+  workflow_dispatch:
+     
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: checking python version 
+        run: python --version
+        
+      - name: exceute my python code
+        run: python test.py 
