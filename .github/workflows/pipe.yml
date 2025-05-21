@@ -16,3 +16,6 @@ jobs:
 
       - name: checking python version 
         run: python --version
+        
+      - name: exceute my python code
+        run: python test.py 
