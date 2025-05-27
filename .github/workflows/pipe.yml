@@ -12,6 +12,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+     env:
+      USER_NAME: "GitHubUser"
 
     steps:
       - name: Checkout code
