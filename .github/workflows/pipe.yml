@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      USER_NAME: "GitHubUser"
+      user_name: "GitHubUser"
 
     steps:
       - name: Checkout code
