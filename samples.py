@@ -20,4 +20,15 @@
 #city = input("which city u grew up in ?:" "\n")
 #pet = input("name of your pets:" "\n") 
 #print("your band name would be:"  + city +  "" + pet )
+#exa,ple-5
+#print("welcome to the tip calacalate!""\n")
+#bill = float(input("what was the total bill?""\n"))
+#tip = int(input("what is per of the tip? 10 12 15""\n"))
+#people = int(input("how many people to split the bill""\n"))
+#tip_as_percent = tip /100
+#total_tip_amount = bill * tip_as_percent
+#total_bill = bill +total_tip_amount
+#bill_per_person = total_bill / people
+#final_amount = round(bill_per_person, 2 )
+#print(f"each person should pay:  {final_amount}")
 
