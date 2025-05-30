@@ -31,6 +31,7 @@
 #bill_per_person = total_bill / people
 #final_amount = round(bill_per_person, 2 )
 #print(f"each person should pay:  {final_amount}")
+#Example-6
 #print("welcome to the pizza page""\n")
 #size = input("what is the size of pizza""\n")
 #pepperoni = input("do you want pepperoni on your pizzer Y or N""\n")
