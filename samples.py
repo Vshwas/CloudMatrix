@@ -54,4 +54,29 @@ if extra_cheese == "Y":
     bill +=1
 
 print(f"your final bill is : ${bill}. ")
+example -7 the program have a logicall condition
+print("welcome to rollercoaster!""\n")
+height = int(input("what is you height in cm ?""\n"))
+
+if height >=120:
+    print("you are in""\n")
+    age = int(input("what is ur age""\n"))
+    if age < 12:
+        bill = 5
+        print("child ticket is 5 $")
+    elif age <=18:
+        bill = 7
+        print(" youth ticket is 7 $")
+    elif age >= 45 and age <=55:
+        bill =0
+        print (" the ticket is on us ! you can travell free")
+        
+    else:
+        bill = 12
+        print("adult ticket is 12$")
+    
+    wants_photo = input("do you want photo Y OR N""\n")
+    if wants_photo =="y":
+        bill +=3
+        print(f"your final bill is $$$:{bill}""\n")
 
