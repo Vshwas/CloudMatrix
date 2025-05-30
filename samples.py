@@ -31,4 +31,26 @@
 #bill_per_person = total_bill / people
 #final_amount = round(bill_per_person, 2 )
 #print(f"each person should pay:  {final_amount}")
+#print("welcome to the pizza page""\n")
+#size = input("what is the size of pizza""\n")
+#pepperoni = input("do you want pepperoni on your pizzer Y or N""\n")
+#extra_cheese = input("do you want cheese Y or N""\n")
+#bill = 0
+#if size == "s":
+    bill +=15
+elif size == "m":
+    bill +=20
+elif size == "l":
+    bill +=25
+else:
+    print("you type the wrong size of pizza ! try one more time""\n")
+if pepperoni == "y":
+    if size == "s":
+        bill +=2
+    else:
+         bill +=3
+if extra_cheese == "Y":
+    bill +=1
+
+print(f"your final bill is : ${bill}. ")
 
