@@ -5,4 +5,3 @@ print(type("number of letter in your name"))
 print(type("lenght_name"))
 
 print("number of letter in your name:"+ str(lenght_name))
-
